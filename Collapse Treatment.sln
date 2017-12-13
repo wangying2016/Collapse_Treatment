@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "__try __finally", "__try __finally\__try __finally.vcxproj", "{E868593E-331C-40FC-AC64-91AF10EC3B63}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. __try __finally", "__try __finally\__try __finally.vcxproj", "{E868593E-331C-40FC-AC64-91AF10EC3B63}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "__try __except", "__try __except\__try __except.vcxproj", "{87496616-47B1-4035-8293-6967696492A0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. __try __except", "__try __except\__try __except.vcxproj", "{87496616-47B1-4035-8293-6967696492A0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SEH Not Support OO", "SEH Not Support OO\SEH Not Support OO.vcxproj", "{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. SEH Not Support OO", "SEH Not Support OO\SEH Not Support OO.vcxproj", "{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Use OO In __try", "Use OO In __try\Use OO In __try.vcxproj", "{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4. Use OO In __try", "Use OO In __try\Use OO In __try.vcxproj", "{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetUnhandledExceptionFilter", "SetUnhandledExceptionFilter\SetUnhandledExceptionFilter.vcxproj", "{C2CEB7C9-8BF4-409A-A38B-76C97F9BFA47}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. SetUnhandledExceptionFilter", "SetUnhandledExceptionFilter\SetUnhandledExceptionFilter.vcxproj", "{C2CEB7C9-8BF4-409A-A38B-76C97F9BFA47}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallStack", "CallStack\CallStack.vcxproj", "{22DF2216-1972-4D46-9EFB-D00FE37244B2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. CallStack", "CallStack\CallStack.vcxproj", "{22DF2216-1972-4D46-9EFB-D00FE37244B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7. Dump", "7. Dump\7. Dump.vcxproj", "{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{22DF2216-1972-4D46-9EFB-D00FE37244B2}.Release|x64.Build.0 = Release|x64
 		{22DF2216-1972-4D46-9EFB-D00FE37244B2}.Release|x86.ActiveCfg = Release|Win32
 		{22DF2216-1972-4D46-9EFB-D00FE37244B2}.Release|x86.Build.0 = Release|Win32
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Debug|x64.ActiveCfg = Debug|x64
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Debug|x64.Build.0 = Debug|x64
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Debug|x86.Build.0 = Debug|Win32
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Release|x64.ActiveCfg = Release|x64
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Release|x64.Build.0 = Release|x64
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Release|x86.ActiveCfg = Release|Win32
+		{D7B5068B-C13F-4EA3-A3AD-DF9E832FFD72}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
