@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "__try __except", "__try __e
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SEH Not Support OO", "SEH Not Support OO\SEH Not Support OO.vcxproj", "{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Use OO In __try", "Use OO In __try\Use OO In __try.vcxproj", "{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}.Release|x64.Build.0 = Release|x64
 		{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}.Release|x86.ActiveCfg = Release|Win32
 		{BCF0CBD1-5C5D-4E96-A483-86C6F6CF2DA2}.Release|x86.Build.0 = Release|Win32
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Debug|x64.ActiveCfg = Debug|x64
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Debug|x64.Build.0 = Debug|x64
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Debug|x86.ActiveCfg = Debug|Win32
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Debug|x86.Build.0 = Debug|Win32
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Release|x64.ActiveCfg = Release|x64
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Release|x64.Build.0 = Release|x64
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Release|x86.ActiveCfg = Release|Win32
+		{51B0BE37-0F63-4BDE-8298-8BAF0AEA4E96}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
