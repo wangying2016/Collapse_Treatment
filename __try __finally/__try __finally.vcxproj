@@ -23,6 +23,7 @@
     <ProjectGuid>{E868593E-331C-40FC-AC64-91AF10EC3B63}</ProjectGuid>
     <RootNamespace>tryfinally</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>1. __try __finally</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

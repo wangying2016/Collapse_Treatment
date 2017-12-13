@@ -23,6 +23,7 @@
     <ProjectGuid>{C2CEB7C9-8BF4-409A-A38B-76C97F9BFA47}</ProjectGuid>
     <RootNamespace>SetUnhandledExceptionFilter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>5. SetUnhandledExceptionFilter</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
