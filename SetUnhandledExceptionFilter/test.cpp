@@ -1,6 +1,9 @@
 #include <windows.h>
 #include <tchar.h>
 
+// 使用 Windows API 函数 SetHandledExceptionFilter 设置一个回调函数
+// 来处理无法预料的异常
+
 // 处理 Unhandled Exception 的回调函数
 LONG ApplicationCrashHanlder(EXCEPTION_POINTERS* pException)
 {
