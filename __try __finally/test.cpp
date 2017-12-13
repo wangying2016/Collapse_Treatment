@@ -1,8 +1,10 @@
 #include <windows.h>
 #include <tchar.h>
 
-// __try、__finally 可以保证无论 try 块内的代码执行结果如何，finally 快内的代码
+// __try、__finally 可以保证无论 try 块内的代码执行结果如何，finally 块内的代码
 // 总会被调用和执行
+// 注意此时与 __except 的区别是，此程序还是会崩溃，只是崩溃结束后执行 __finally
+// 块内的代码
 
 int _tmain(int argc, TCHAR* argv[])
 {
